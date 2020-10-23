@@ -1,0 +1,17 @@
+說明OSI Model與 TCP/IP protocol
+OSI(Open System Interconnection Model)開放式系統互聯模型
+層次劃分
+第7層 應用層（Application Layer）定義網路應用程式與網路間溝通的界面
+第6層 表達層（Presentation Layer）把數據轉換為能與接收者的系統格式相容並適合傳輸的格式
+第5層 會議層（Session Layer）負責建立，管理，維護和終止表示層實體之間的通信會話
+第4層 傳輸層（Transport Layer）負責讓資料可以正確送達目的地
+第3層 網路層（Transport Layer）決定數據的路徑選擇和轉寄，將網路表頭加至數據包，以形成封包
+第2層 資料連結層（Data Link Layer）負責網路尋址、錯誤偵測和改錯
+第1層 實體層（Physical Layer）在局部區域網路上傳送資料框，它負責管理電腦通訊裝置和網路媒體之間的互通
+
+TCP/IP protocol (Internet Protocol Suite)網際網路協議
+層次劃分
+第4層 應用層（Application Layer）
+第3層 傳輸層（Transport Layer）
+第2層 網絡互聯層(internet layer)
+第1層 網路存取層（Network Access Layer）
